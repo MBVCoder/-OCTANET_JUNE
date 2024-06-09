@@ -1,0 +1,327 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+   background-color: rgb(32, 7, 45);
+   margin-right: 0%;
+   width: 100%;
+}
+.bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 62, 71);
+    border-bottom: 2px solid gray;
+    border-radius: 15px;
+    position: relative;
+}
+
+.bar .search{
+    margin-top: 30px;
+    padding: 1px 20px 1px 20px;
+    display: flex;
+    height: 30px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 1.2em;
+}
+.bar .search input{
+    border: none;
+    outline: none;
+    font-size: 1vmax;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    color: rgb(236, 252, 252);
+    border-radius: 30px;
+    font-size: 15px;
+    border-bottom: 3px solid rgb(225, 223, 228);
+    transition: .5s;
+    display: flex;
+    margin: 20px 20px;
+}
+#login{
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+#login:hover{
+    background-color: black;
+    color: white;
+}
+ul li a:hover{
+    background-color: rgb(17, 236, 236);
+    color: black;
+    border-bottom: none;
+}
+.first .text h1{
+    color: rgb(21, 101, 172);
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+    text-align: center;
+    justify-content: center;
+    margin: 100px;
+    font-size: 70px;
+    margin-bottom: 180px;
+}
+.textimage{
+    display: flex;
+    justify-content: space-between;
+}
+.textimage .text1{
+    color: white;
+    font-size: 1em;
+    margin-left: 50px;
+    margin: 50px 100px 50px;
+    width: 40%;
+    height: 100%;
+}
+.textimage .text1 h1{
+    margin-bottom: 50px;
+    font-size: 3em;
+    font-family: poppins;
+}
+.textimage .text1 p{
+    color: rgb(209, 236, 232);
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 700px;
+    text-align: justify;
+    letter-spacing: 0px;
+    line-height: 20px;
+    font-family: poppins,sans-serif;
+}
+.first .textimage .text1 a{
+    color: rgb(237, 234, 234);
+    background-color: transparent;
+    border: 2px solid rgb(239, 236, 236);
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    float: left;
+    margin: 20px 0 0 ;
+    box-shadow: 0 0 10px #1aeeef;
+}
+.first .textimage .text1 a:hover{
+    background-color: aqua;
+    color: rgb(12, 12, 12);
+    border: none;
+    box-shadow: 0 0 10px #dee3e3;
+}
+.first .textimage .image img{
+    margin: 100px 100px 100px;
+    filter: drop-shadow(10px 10px 20px rgb(222, 51, 208));
+}
+.gamespart{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+.gamespart .types h2{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 60px 0 30px 0;
+}
+.gamespart .types ul{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gamespart .types #type{
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    background-color: #1aeeef;
+    color: black;
+    border-bottom: none;
+    box-shadow: 0 0 10px #1aeeef;
+    transition: .2s;
+    font-family: poppins;
+}
+.gamespart .types #type:hover{
+    background-color: transparent;
+    color: #1aeeef;
+    border: 2px solid #1aeeef ;
+}
+.stack{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 40px 30px 40px;
+}
+.stack .games {
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px 40px;
+    background: #1b2141;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.stack .games img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.stack .games .content h2{
+    color: white;
+    border-top: 1px solid #3a83f0;
+    margin: 10px;
+}
+.stack .games .content h3{
+    color: white;
+    border-bottom:1px solid #3a83f0 ;
+    margin-bottom: 20px;
+}
+.stack .games .content h3 span{
+    color: rgb(239, 201, 15);
+}
+.stack .games .content p{
+    color: white;
+    font-size: 13px;
+    font-family: poppins;
+    margin-bottom: 20px;
+}
+.stack .games .content a{
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    background-color: #1aeeef;
+    color: black;
+    box-shadow: 0 0 10px #1aeeef;
+    transition: .2s;
+    font-family: poppins;
+    text-decoration: none;
+}
+.stack .games .content a:hover{
+    background-color: white;
+    color: #0b0c0c;
+    border: 2px solid #d7ebeb ;
+    box-shadow: none;
+}
+.aboutus {
+    width: 100%;
+    display: flex;
+    margin: 100px 70px 100px 70px;
+    padding: 20px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aboutus .text2{
+    width: 40%;
+    color: white;
+    margin: 0 100px 0 70px;
+}
+.aboutus .text2 h1{
+    font-size: 60px;
+    font-weight: 200;
+    margin-bottom: 50px;
+    color: #58cff7;
+    letter-spacing: 1px;
+}
+.aboutus .text2 p{
+    font-size: 20px;
+    font-family: poppins;
+    letter-spacing: 1px;
+}
+
+.aboutus .aboutimg img{
+    width: 100%;
+    height: 200px;
+    margin: 60px auto;
+}
+.contact{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.contact .text3{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 300;
+    margin: 30px 0 40px 50px;
+}
+.contact .icons a i{
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 300;
+    margin: 40px 0 40px 50px;
+    color: white;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    background-color: #ac08f3;
+    color: whitesmoke;
+    width: 100%;
+}
+
+    @media screen and (max-width: 980px) {
+        .bar {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+        }
+    
+        .bar .search {
+            width: 50%;
+            margin-top: 10px;
+        }
+    
+        ul {
+            flex-direction: column;
+            width: 60%;
+            align-items: center;
+        }
+    
+        ul li {
+            width: 50%;
+            text-align: center;
+        }
+    
+        ul li a {
+            margin: 10px;
+            width: 100%;
+            justify-content: center;
+        }
+    
+        ul.active {
+            display: flex;
+        }
+        .gamespart{
+            align-items: center;
+        }
+        .gamespart .types #type{
+            display: flex;
+            text-align: center;
+        }
+        .textimage{
+            display: block;
+            align-items: center;
+        }
+    }
+   
+
+
+
+
